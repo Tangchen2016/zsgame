@@ -1,0 +1,67 @@
+/*logo*/
+.logo{
+    width: 160px;
+    height: 60px;
+    background: #f2f2f2;
+    font-size: 28px;
+    text-align: center;
+    line-height: 60px;
+}
+/*搜索框*/
+#search-form .input-group{
+    border: 3px solid #169bd4;
+    border-radius: 5px;
+}
+#search-form .btn{
+    border-radius: 0;
+}
+#search-form #search-btn{
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    background: #169bd4;
+}
+/*导航条*/
+#container-nav{
+    background: #169bd4;
+}
+#container-nav a{
+    color: #fff;
+    font-size: 14px;
+}
+#container-nav li a:focus,
+#container-nav li a:hover,
+#container-nav li.active a{
+    background: #169B9D;
+}
+/*底部*/
+footer a{
+    color: #7cc5d8;
+}
+.footer-top-itme{
+    color: #7cc5d8;
+}
+.footer-top-itme .title{
+    display: inline-block;
+    border-bottom: 1px solid #d1d1d1;
+}
+.footer-top-itme .lists{
+    line-height: 30px;
+}
+.footer-bottom{
+    background: #f2f2f2;
+    text-align: center;
+    padding: 30px 0 30px;
+}
+.footer-bottom-lists{
+    display: inline-block;
+}
+.footer-bottom-lists li{
+    float: left;
+    color: #7cc5d8;
+    margin: 10px 20px;
+}
+.copyright{
+    font-size: 16px;
+    color: #999999;
+}

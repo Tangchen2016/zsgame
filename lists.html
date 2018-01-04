@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Game</title>
+
+    <!-- bootstrap-3.3.7 -->
+    <link href="css/base.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar" style="background: #f2f2f2;">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="btn btn-primary btn-default navbar-btn">登录</button>
+          <button type="button" class="btn btn-primary btn-default navbar-btn">注册</button>
+        </div>
+        <div class="navbar-right " aria-expanded="false" style="height: 1px;">
+          <ul class="nav navbar-nav">                   
+            <li class="active"><a href="#">个人中心</a></li>
+            <li><a href="#">我的收藏</a></li>
+            <li><a href="#">网站导航</a></li>
+            <li><a href="#">公众号</a></li>
+            <li><a href="#">客户中心</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+    
+    <!-- 内容区-->
+    <div class="container">
+      <div class="nav navbar">
+        <div class="navbar-header">
+          <div class="logo">CNISBN</div>
+        </div>
+        <form id="search-form" class="navbar-form navbar-right">
+          <div class="input-group">
+            <div class="input-group-btn">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              版本类型 <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="#">网游</a></li>
+              <li><a href="#">休闲类</a></li>
+            </ul>
+          </div>
+            <div class="input-group-btn">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                游戏类型 <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="#">角色扮演</a></li>
+                <li><a href="#">休闲类</a></li>
+              </ul>
+            </div>
+            <input type="text" placeholder="请输入要查询的信息" class="form-control">
+          </div><!-- /input-group -->
+          <button type="submit" id="search-btn" class="btn btn-success">搜索</button>
+        </form>
+      </div>
+
+      <div class="row row-offcanvas row-offcanvas-right">
+      <!-- 热门推荐 -->
+      <div class="row row-offcanvas row-offcanvas-right">
+        <!-- 左侧列表项 -->
+        <div class="col-xs-12 col-sm-9">
+          <p>您的位置：首页 > 版本号</p>
+          <div class="filter-box">
+            <a href="javascript:;" class="filter-title">版号类型：</a>
+          </div>
+        </div>
+
+        <!-- 右侧展示图 -->
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas">
+          <div class="right-img-box">
+            <a href="#"><img src="./img/home/u149.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-top col-xs-12 col-sm-9">
+          <div class="col-xs-2 footer-top-itme">
+            <p class="title">交易流程</p>
+            <ul class="lists">
+              <li><a href="#">关于我们</a></li>
+              <li><a href="#">授权协议</a></li>
+              <li><a href="#">免责声明</a></li>
+              <li><a href="#">合作伙伴</a></li>
+              <li><a href="#">联系我们</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-2 footer-top-itme">
+            <p class="title">交易流程</p>
+            <ul class="lists">
+              <li class="list"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <ul class="footer-bottom-lists clearfix">
+          <li><a href="#">关于我们</a></li>
+          <li><a href="#">授权协议</a></li>
+          <li><a href="#">免责声明</a></li>
+          <li><a href="#">合作伙伴</a></li>
+          <li><a href="#">联系我们</a></li>
+        </ul>
+        <p class="copyright">雪豹科技版权所有Copyright © 2017-2018 CNISBN.com</p>
+      </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Includeall compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
