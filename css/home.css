@@ -25,3 +25,12 @@
 .right-img-box img{
     width: 100%;
 }
+.thumbnail-title{
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+}

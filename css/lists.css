@@ -1,0 +1,34 @@
+.filter-box {
+	color: #169bd5;
+}
+.filter-title{
+	min-width: 100px
+}
+.filter-lists {
+	margin-bottom: 10px;
+}
+.filter-list {
+	cursor: pointer;
+	margin: 0 5px;
+	line-height: 20px;
+}
+.game-list {
+	margin-bottom: 20px;
+}
+.game-list-thumbnail {
+	width: 100px;
+	height: 100px;
+	margin-right: 10px;
+}
+.game-list-detail{
+	padding-top: 10px;
+}
+.game-list-detail p{
+	width: 100px;
+	color: #169bd5;
+	font-size: 12px;
+	line-height: 12px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}

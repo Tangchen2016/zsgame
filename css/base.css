@@ -9,7 +9,7 @@ i,em{ font-style:normal;}
 b,strong{ font-weight:normal;}
 input{outline:none; border:none 0;padding:0;}
 a img{ border:0; }/*a包img：去蓝色边框*/
-img{display:block;}/*a包img：去3像素bug*/
+img{display:block; width: 100%;}/*a包img：去3像素bug*/
 li{ list-style:none; vertical-align:top;}/*li里浮动,li不浮动，去3像素bug*/
 table,th,td,tr{ border:none; padding:0;}
 table{border-collapse:collapse;}
