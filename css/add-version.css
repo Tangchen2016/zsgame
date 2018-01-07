@@ -1,0 +1,12 @@
+#game-icon,
+#game-screenshot{
+    display: none;
+}
+.detail-img{
+    float: left;
+    width: 20%;
+}
+.detail-img img{
+    display: inline-block;
+    width: 90%;
+}
